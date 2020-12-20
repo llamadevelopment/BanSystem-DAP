@@ -38,7 +38,15 @@ A Duplicate Account Prevention-Addon for BanSystemNK
 Command | Usage | Default Permission
 ------------ | ------------- | -------------
 accountinfo |    /accountinfo \<Player> |    bansystem.command.accountinfo
+
 **All commands are editable: Permission, Usage, Command name and Command aliases.**
+
+---
+
+## Screenshots
+
+![Alt Text](https://cloudburstmc.org/attachments/bansystem_dap_1-png.2556/)
+![Alt Text](https://cloudburstmc.org/attachments/bansystem_dap_2-png.2557/)
 
 ---
 
