@@ -1,0 +1,8 @@
+name: BanSystemNK-DAP
+version: 1.0.0-SNAPSHOT
+api: 1.0.0
+author: Mundschutziii
+main: net.llamadevelopment.bansystemdap.BanSystemDAP
+description: A Duplicate Account Prevention-Addon for BanSystemNK
+depend:
+  - BanSystemNK

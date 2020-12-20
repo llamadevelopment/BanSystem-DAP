@@ -1,0 +1,19 @@
+Provider: Yaml
+
+MySql:
+  Host: "127.0.0.1"
+  Port: "3306"
+  User: "root"
+  Database: "bansystem_dap"
+  Password: "DAAAAAAAAAAAAP"
+
+MongoDB:
+  Uri: "URI_LINK"
+  Database: "bansystem_dap"
+
+Commands:
+  Accountinfo:
+    Name: "accountinfo"
+    Description: "Check if a player is using duplicated accounts"
+    Permission: "bansystem.command.accountinfo"
+    Aliases: [ "ipinfo" ]

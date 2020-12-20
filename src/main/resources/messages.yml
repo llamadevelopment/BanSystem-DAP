@@ -1,0 +1,16 @@
+# - - - Messages - - -
+prefix: "&8» &6BanSystem &8| &7"
+no-permission: "&cYou have insufficient permissions to execute this command."
+
+no-entries-found: "&cCould not find an entry about this player."
+usage-accountinfo: "&7Usage: &e/[0] <Player>"
+
+# - - - UI Form - - -
+ui-accountinfo-title: "Accountinfo: [0]"
+ui-accountinfo-content-offline: "&8» &6Status: &coffline\n&8» &6Duplicated Accounts: &e[0]"
+ui-accountinfo-content-online: "&8» &6Status: &aonline\n&8» &6Duplicated Accounts: &e[0]\n&8» &6Device OS: &e[1]\n&8» &6Device Input: &e[2]"
+ui-accountinfo-accounts: "&8» &6Account list"
+
+ui-accountlist-title: "Accountlist: [0]"
+ui-accountlist-content: ""
+ui-accountlist-entry: "&8» &f[0]\n&7Click to see Account info"
