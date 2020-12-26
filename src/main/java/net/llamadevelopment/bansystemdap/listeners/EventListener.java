@@ -26,6 +26,7 @@ public class EventListener implements Listener {
         final Player player = event.getPlayer();
         final Provider api = BanSystemAPI.getProvider();
         this.instance.provider.getDuplicateAccounts(player.getName(), accounts -> {
+            accounts.remove(event.getPlayer().getName());
             if (accounts.size() == 0) return;
             accounts.forEach(e -> api.playerIsBanned(e, is -> {
                 if (is) {
