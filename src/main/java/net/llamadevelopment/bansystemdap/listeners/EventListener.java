@@ -31,7 +31,7 @@ public class EventListener implements Listener {
             accounts.forEach(e -> api.playerIsBanned(e, is -> {
                 if (is) {
                     api.getBan(e, ban -> {
-                        int seconds = (int) ((ban.getTime() - System.currentTimeMillis()) / 1000);
+                        int seconds = ban.getTime() == -1 ? -1 : (int) ((ban.getTime() - System.currentTimeMillis()) / 1000);
                         api.banPlayer(player.getName(), ban.getReason(), ban.getBanner(), seconds);
                     });
                 }
