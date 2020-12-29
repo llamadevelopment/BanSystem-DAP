@@ -6,7 +6,7 @@ import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerJoinEvent;
 import cn.nukkit.event.player.PlayerPreLoginEvent;
 import lombok.AllArgsConstructor;
-import net.llamadevelopment.bansystem.components.api.BanSystemAPI;
+import net.llamadevelopment.bansystem.BanSystem;
 import net.llamadevelopment.bansystem.components.provider.Provider;
 import net.llamadevelopment.bansystemdap.BanSystemDAP;
 
@@ -24,7 +24,7 @@ public class EventListener implements Listener {
     @EventHandler
     public void on(final PlayerJoinEvent event) {
         final Player player = event.getPlayer();
-        final Provider api = BanSystemAPI.getProvider();
+        final Provider api = BanSystem.getApi().getProvider();
         this.instance.provider.getDuplicateAccounts(player.getName(), accounts -> {
             accounts.remove(event.getPlayer().getName());
             if (accounts.size() == 0) return;
