@@ -3,7 +3,7 @@
 A Duplicate Account Prevention-Addon for BanSystemNK
 
 > * Download the latest version here: [Download](https://cloudburstmc.org/resources/bansystem-duplicated-account-prevention-addon.612/download)
-> * Browse other versions of BanSystem here: [Browse](https://cloudburstmc.org/resources/bansystem-duplicated-account-prevention-addon.612/history)
+> * Browse other versions of BanSystem-DAP here: [Browse](https://cloudburstmc.org/resources/bansystem-duplicated-account-prevention-addon.612/history)
 
 ### Join our Discord:
 [![d](https://img.shields.io/discord/323953253458903040.svg)](https://discord.gg/Qcuv2f6)
@@ -49,6 +49,20 @@ accountinfo |    /accountinfo \<Player> |    bansystem.command.accountinfo
 ![Alt Text](https://cloudburstmc.org/attachments/bansystem_dap_2-png.2557/)
 
 ---
+
+
+## Thanks to ZAP-Hosting!
+This project wouldn't be possible without the help of ZAP-Hosting!
+***
+### ZAP-Hosting
+Zap-Hosting is a VPS, Rootserver, (Lifetime) Gameserver, Domain & TeamSpeak 3/5 hosting company. They offer **good quality** servers **at a low price**. This project was also tested on a ZAP-Hosting Server. So if you need a **cheap** vps/gameserver/rootserver/teamspeak3/etc. hoster, ZAP-Hosting is the best choice.
+
+Get your own **Server** today here: [Click me](https://zap-hosting.com/lldv)
+
+### Special offer
+Use the code `proxma-20` for a 20% discount
+***
+
 
 ![YourKit](https://www.yourkit.com/images/yklogo.png)
 ------
